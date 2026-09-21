@@ -3,7 +3,7 @@ module.exports = {
     title: `Jocelyn & Rafli Gallery`,
     description: "Jocelyn & Rafli 3D Virtual Gallery",
     author: `Jocelyn & Rafli`,
-    siteUrl: ``,
+    siteUrl: `https://jocelyn-rafli-gallery.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-resolve-src`,

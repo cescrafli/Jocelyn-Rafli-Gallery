@@ -49,5 +49,9 @@
     "eslint-plugin-react": "^7.26.1",
     "prettier": "2.4.1",
     "stylelint-config-prettier": "^8.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cescrafli/Jocelyn-Rafli-Gallery.git"
   }
 }

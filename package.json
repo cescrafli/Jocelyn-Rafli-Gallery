@@ -1,0 +1,53 @@
+{
+  "name": "jocelyn-rafli-gallery",
+  "description": "Jocelyn & Rafli 3D Virtual Gallery",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_HOT_LOADER=classic gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "cross-env GATSBY_HOT_LOADER=classic gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "browserslist": [
+    "> 0.5% in BG"
+  ],
+  "dependencies": {
+    "@react-three/drei": "7.12.5",
+    "@react-three/fiber": "^7.0.9",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-helmet": "^6.1.3",
+    "@types/three": "^0.133.0",
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-image": "^1.13.0",
+    "gatsby-plugin-manifest": "^3.13.0",
+    "gatsby-plugin-netlify": "^3.14.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^4.13.0",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-sass": "^4.14.0",
+    "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-transformer-sharp": "^3.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.42.1",
+    "three": "^0.137.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "prettier": "2.4.1",
+    "stylelint-config-prettier": "^8.0.2"
+  }
+}

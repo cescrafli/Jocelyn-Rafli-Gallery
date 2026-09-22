@@ -104,7 +104,8 @@ const PAINTINGS: { name: string; position: [number, number, number]; rotation?: 
   { name: "15.jpeg", position: [11.55, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
   { name: "16.jpeg", position: [2.85, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
   { name: "17.jpeg", position: [4.30, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
-  { name: "WhatsApp Image 2026-09-22 at 10.26.00.jpeg", position: [5.75, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 }
+  { name: "WhatsApp Image 2026-09-22 at 10.26.00.jpeg", position: [5.75, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "18.jpeg", position: [7.20, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 }
 ];
 
 const IndexPage = (): JSX.Element => {

@@ -87,7 +87,24 @@ const PAINTINGS: { name: string; position: [number, number, number]; rotation?: 
   { name: "WhatsApp Image 2026-09-21 at 20.01.02 (1).jpeg", position: [-10.05, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
   { name: "WhatsApp Image 2026-09-21 at 20.01.02 (2).jpeg", position: [-8.60, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
   { name: "WhatsApp Image 2026-09-21 at 20.01.02.jpeg", position: [-7.15, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
-  { name: "WhatsApp Image 2026-09-21 at 20.01.03.jpeg", position: [-5.70, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 }
+  { name: "WhatsApp Image 2026-09-21 at 20.01.03.jpeg", position: [-5.70, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "2.jpeg", position: [-4.25, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "3.jpeg", position: [-2.80, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "4.jpeg", position: [-1.35, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "5.jpeg", position: [0.10, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "6.jpeg", position: [1.55, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "7.jpeg", position: [3.00, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "8.jpeg", position: [4.45, 0.60, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "9.jpeg", position: [-4.25, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "10.jpeg", position: [-2.80, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "11.jpeg", position: [-1.35, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "12.jpeg", position: [0.10, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "13.jpeg", position: [1.55, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "14.jpeg", position: [3.00, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "15.jpeg", position: [4.45, 1.40, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "16.jpeg", position: [-4.25, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "17.jpeg", position: [-2.80, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 },
+  { name: "WhatsApp Image 2026-09-22 at 10.26.00.jpeg", position: [-1.35, 2.20, 5.80], rotation: [0, 3.14, 0], scale: 0.52 }
 ];
 
 const IndexPage = (): JSX.Element => {

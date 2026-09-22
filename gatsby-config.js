@@ -14,6 +14,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `paintings`,
+        path: `${__dirname}/static/paintings/`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

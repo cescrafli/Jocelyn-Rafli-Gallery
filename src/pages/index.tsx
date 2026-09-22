@@ -1,10 +1,21 @@
 import React, { useEffect, useRef } from "react";
+import { graphql } from "gatsby";
 
 import Canvas from "components/three/canvas";
 import SEO from "components/main/seo/seo";
 import "./index.scss";
 
-const IndexPage = (): JSX.Element => {
+interface IndexPageProps {
+  data: {
+    allFile: {
+      nodes: {
+        base: string;
+      }[];
+    };
+  };
+}
+
+const IndexPage = ({ data }: IndexPageProps): JSX.Element => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -20,15 +31,27 @@ const IndexPage = (): JSX.Element => {
     return () => window.removeEventListener("click", playAudio);
   }, []);
 
+  const paintingNames = data.allFile.nodes.map((node) => node.base);
+
   return (
     <>
       <SEO title="Jocelyn & Rafli Gallery" />
       <audio ref={audioRef} src="/bgm.webm" loop />
       <div id="scene-container" style={{ height: "100vh", width: "100%" }}>
-        <Canvas />
+        <Canvas paintings={paintingNames} />
       </div>
     </>
   );
 };
+
+export const query = graphql`
+  query {
+    allFile(filter: { sourceInstanceName: { eq: "paintings" } }) {
+      nodes {
+        base
+      }
+    }
+  }
+`;
 
 export default IndexPage;
